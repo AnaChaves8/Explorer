@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 626px;
+  margin: 64px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+  font-family:'Dosis', sans-serif;
+  color:#3F3D56 ;
+  font-weight: normal;
+}
+
+main h1 span {
+  color:#EE24FF;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+main p {
+  color: #828282;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+main p span {
+  color: #3F3D56;
+  font-weight: 700;
+}
+
+main section {
+  font-family: 'Open Sans', sans-serif;
+  color: #828282;
+  font-weight: 400;
+  line-height: 22px;
+  font-size: 15px;
+
+  margin: 16px 36px 32px 50px;
+}
+
+.flutuar {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color:#3F3D56;
+}
+
+.line {
+  border-top:  1px solid #ECEFF2;
+  width: 391px;
+  margin: auto;
+}
+
+ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 16px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  color: #3F3D56;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+
+#wave {
+  position: fixed;
+  bottom: 0px;
+  width: 100% ;
+}
